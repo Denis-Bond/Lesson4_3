@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+header .bottom {
+    overflow: auto;
+    border-bottom: 1px solid #C08D5D;
+    padding-bottom: 33px;
+    width: 470px;
+}
+
+.bottom img {
+    float: left;
+    margin-top: 53px;
+}
+
+.head {
+    display: inline-block;
+    margin-left: 122px;
+    margin-top: 69px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.head :first-child {
+    color: #C08D5D;
+}
+
+.head a {
+    text-decoration: none;
+    padding-right: 40px;
+    color: #000000;
+}
+
+.block1 {
+    margin-top: 147px;
+    width: 535px;
+    margin-left: 4px;
+}
+
+.block1 h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+.block1 h1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    margin-top: 7px;
+}
+
+main p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    margin-top: 26px;
+}
+
+h2::after {
+    content: url(./images/Logo.svg);
+}
+
+h1::after {
+    content: url(./images/Vector\ 1.svg);
+    display: block;
+}
+
+.bottom1 {
+    margin-top: 72px;
+}
+
+.block1 a {
+    display: inline-block;
+    border: solid 1px;
+    border-color: #C08D5D;
+    padding: 17px 0 17px 15px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+.block1 a::after {
+    color: white;
+    content: '\21C0';
+    padding: 18px 20px 19px 20px;
+    margin-left: 11px;
+    background-color: #C08D5D;
+    width: 59px;
+}
+
+.bottom2 img {
+    display: inline-block;
+    margin-left: 522px;
+    margin-top: 47px;
+}
+
+.container1 {
+    width: 1264px;
+    margin: auto;
+}
+
+body .container1 {
+    background-image: url(./images/Image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 30%;
+}
